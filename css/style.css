@@ -28,7 +28,7 @@ img {
 header {
     width: 100%;
     height: 70vh;
-    background-image: url(../images/1.jpg);
+    background-image: url(../images/1.gif);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -243,7 +243,7 @@ header .header-content .content p {
 
 
 .services {
-    background-image: url(../images/3.jpg);
+    background-image: url(../images/3.gif);
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -371,7 +371,7 @@ header .header-content .content p {
 }
 
 .gallery .images .imgBox div:hover::before {
-    content: "Projects";
+    content: "GitHub";
     position: absolute;
     width: 100%;
     height: 100%;
@@ -390,7 +390,7 @@ header .header-content .content p {
 }
 
 .life-history {
-    background: url(../images/backkckk.png);
+    background: url(../images/backkckk.gif);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -679,4 +679,13 @@ footer .footer .footer-bottom {
 
 #resume{
     text-align: center;
+}
+
+
+
+.carousel-item {
+    height: 400px;
+}
+h5{
+    color: white;
 }
