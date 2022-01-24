@@ -446,54 +446,6 @@ header .header-content .content p {
     color: rgba(255, 255, 255, .8);
 }
 
-.testimonials .carousel-indicators {
-    bottom: -65px;
-}
-
-.testimonials .carousel-indicators li {
-    background-color: var(--primary-color);
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-}
-
-.testimonials h2 {
-    font-weight: 600;
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-.testimonials .testimonials-single {
-    border: 1px solid rgba(0, 0, 0, .1);
-    padding: 20px;
-    border-radius: 5px;
-}
-
-.testimonials .testimonials-single img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
-
-.testimonials .testimonials-single h4 {
-    font-size: 1.3rem;
-    color: var(--primary-color);
-    font-weight: 600;
-}
-
-.testimonials .testimonials-single p.occupation {
-    font-size: 1rem;
-    color: #333;
-    font-weight: 500;
-}
-
-.testimonials .testimonials-single .text p {
-    font-size: .9rem;
-    line-height: 1.5rem;
-    font-weight: 400;
-}
 
 .contact {
     background: url(../images/4.jpg);
@@ -689,3 +641,63 @@ footer .footer .footer-bottom {
 h5{
     color: white;
 }
+
+
+
+.life-blog {
+    background: url(../images/blog.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.life-blog::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*background-color: rgba(0, 0, 0, .3);*/
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.life-blog h2 {
+    color: #FFF;
+    font-weight: bolder;
+    font-weight: 2.5rem;
+    position: relative;
+    z-index: 10;
+}
+
+.life-blog .life-single {
+    border-bottom: 2px solid rgba(255, 255, 255, .5);
+    margin: 35px 0;
+    position: relative;
+    z-index: 10;
+}
+
+.life-blog .life-single p {
+    margin-bottom: 20px;
+}
+
+.life-blog .life-single p span {
+    border: 3px solid var(--primary-color);
+    padding: 5px 15px;
+    color: #FFF;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.life-blog .life-single h4 {
+    color: #FFF;
+    font-weight: bolder;
+}
+
+.life-blog .life-single p {
+    font-weight: bolder;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, .8);
+}
+
